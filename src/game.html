@@ -26,7 +26,20 @@
   </header>
   <div class=main>
     <h3 id="game">Game</h3>
+    <div id="game-container"></div>
+    <div id="game-options">
+      <button id="hit" onclick="hit()">Hit</button>
+      <button id="stay">Stay</button>
+      <!-- TODO: Add surrender button on first two cards -->
+      <!-- TODO: Add split button if first two cards are the same -->
+      <!-- TODO: Add a double down button on the first two cards -->
+      <!-- TODO: Add insurance button if dealer is showing an Ace -->
+      <button id="newGame" onclick="startGame()">New Game</button>
+    </div>
+
   </div>
+
+  <script src="/js/game.js"></script>
 </body>
 
 </html>
