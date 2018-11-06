@@ -5,73 +5,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
   <title>Blackjack: How to Play Blackjack</title>
 </head>
 
 <body>
   <header>
     <!-- TODO: include logo -->
-    <h1 id="top">Blackjack ("21" or "twenty-one")</h1>
-
+    <a href="index.html">
+      <h1 id="top">Blackjack</h1>
+      <h3>("21" or "twenty-one")</h3>
+    </a>
     <nav>
-      <a class="active" href="#about">About</a>
-      <a href="#howtoplay">How to Play</a>
-      <a href="#terminology">Terminology</a>
-      <a href="#rules">Rules</a>
-      <a href="#basicstrategy">Basic Strategy</a>
+      <ul>
+        <a class="active" href="about.html">
+          <li>About</li>
+        </a>
+        <a href="howtoplay.html">
+          <li>How to Play</li>
+        </a>
+        <a href="terminology.html">
+          <li>Terminology</li>
+        </a>
+        <a href="rules.html">
+          <li>Rules</li>
+        </a>
+        <a href="basicstrategy.html">
+          <li>Basic Strategy</li>
+        </a>
+      </ul>
     </nav>
-
   </header>
-  <div class=main>
+  <main>
     <article>
-
-      <!-- TODO: Add "to the top" button for each section -->
-
-      <section>
-        <h3 id="about">About</h3>
-        <p>Blackjack is one of the most common games found inside of a casino. It is a card game where the player plays against
+      <section class="about">
+        <h3>About</h3>
+        <p>Blackjack is one of the most common games found inside of a casino. It is a card game where the player plays
+          against
           the dealer.</p>
       </section>
-
-      <section>
-        <h3 id="howtoplay">How to Play</h3>
-        <p>The object of the game is to have your cards total higher than the dealer's hand, without "busting" or going over
-          a total of 21. The dealer begins the game by dealing each player two cards and the dealer one card face-up and
+      <section class="how-to-play">
+        <h3>How to Play</h3>
+        <p>The object of the game is to have your cards total higher than the dealer's hand, without "busting" or going
+          over
+          a total of 21. The dealer begins the game by dealing each player two cards and the dealer one card face-up
+          and
           one card face-down.</p>
       </section>
-
-      <section>
-        <h3 id="terminology">Terminology</h3>
+      <section class="terminology">
+        <h3>Terminology</h3>
         <dl>
           <dt>Blackjack:</dt>
-          <dd>a two-card twenty-one (21), usually with an Ace and any ten-valued (10) card. This is usually paid with three-to-two
+          <dd>a two-card twenty-one (21), usually with an Ace and any ten-valued (10) card. This is usually paid with
+            three-to-two
             odds (3:2) as opposed to even money (1:1)</dd>
           <dt>Bet:</dt>
           <dd>a wager or the amount that the player wishes to gamble</dd>
           <dt>Face cards:</dt>
-          <dd>cards with a value of ten (10). Face cards are usually denoted as Jack, Queen, or King. 10s can also be considered
+          <dd>cards with a value of ten (10). Face cards are usually denoted as Jack, Queen, or King. 10s can also be
+            considered
             a "face card" </dd>
           <dt>Insurance:</dt>
-          <dd>this occurs when the dealer's face up card is an Ace. The player has the option to wager up to half of their bet,
-            if they think the dealer has a Blackjack, to "save" their bet. If the player makes the insurance bet and the
-            dealer does not have Blackjack, then the player loses their insurance bet and the game continues as normal </dd>
+          <dd>this occurs when the dealer's face up card is an Ace. The player has the option to wager up to half of
+            their bet,
+            if they think the dealer has a Blackjack, to "save" their bet. If the player makes the insurance bet and
+            the
+            dealer does not have Blackjack, then the player loses their insurance bet and the game continues as normal
+          </dd>
           <dt>Even money:</dt>
           <dd>when a bet is paid the same amount (1:1) </dd>
           <dt>Surrender:</dt>
-          <dd>while the player still has their initial two cards, they can decide to surrender if they think they cannot beat
+          <dd>while the player still has their initial two cards, they can decide to surrender if they think they
+            cannot beat
             the dealer. The player gives up half of their bet to the dealer and keeps the other half</dd>
           <dt>Double-Down:</dt>
-          <dd>the act of placing an additional bet (up to the original bet) and receiving ONLY one card. This can only occur
+          <dd>the act of placing an additional bet (up to the original bet) and receiving ONLY one card. This can only
+            occur
             when the player's hand has two cards</dd>
           <dt>Split:</dt>
-          <dd>if you are dealt two cards of equal value, you have the option of "splitting" them into two separate hands. You
+          <dd>if you are dealt two cards of equal value, you have the option of "splitting" them into two separate
+            hands. You
             must match your original bet. Y </dd>
           <dt>Soft hand:</dt>
           <dd>a hand where the Ace can be considered 1 or 11 </dd>
           <dt>Hard hand:</dt>
           <dd>a hand where the Ace is considered 11</dd>
           <dt>Bust/Busting:</dt>
-          <dd>a bust, or busting hand, is a losing hand where the total value goes over 21 and therefore, an automatic loss
+          <dd>a bust, or busting hand, is a losing hand where the total value goes over 21 and therefore, an automatic
+            loss
           </dd>
           <dt>Hit:</dt>
           <dd>receive an additional card</dd>
@@ -80,19 +102,26 @@
           <dt>Push:</dt>
           <dd>having the same value as the dealer, which results in neither a win nor a loss</dd>
           <dt>*Draw:</dt>
-          <dd>this has two meanings in Blackjack. Draw can either refer to "drawing a card/taking a hit" or a "draw/tie/push"</dd>
-
+          <dd>this has two meanings in Blackjack. Draw can either refer to "drawing a card/taking a hit" or a
+            "draw/tie/push"</dd>
         </dl>
       </section>
-
-      <section>
-        <h3 id="rules">Rules</h3>
+      <section class="rules">
+        <h3>Rules</h3>
         <ol>
-          <li>The game of Blackjack starts with either a single deck, double deck, six deck, or eight deck of cards. There are other variants but these are usually the most common.</li>
-          <li>The game usually starts with the dealer burning a card, then the players are dealt their cards (starting with the player on the dealer's left).</li>
-          <li>The game begins with each player having two cards in their hand and the dealer having two cards as well (but only one card being "exposed").</li>
-          <li>If the dealer's exposed card is a ten-value card, the dealer will check to see if they have Blackjack, in which case, the hand will end. If the dealer's exposed card is an Ace, the dealer will offer insurance. If the player has Blackjack, they can taken even money, or gamble that the dealer doesn't have Blackjack. If the dealer has Blackjack, then all the non-Blackjack hands will lose unless the player has a Blackjack themselves (in which case, the hand will push) and the insurance bets, if any are made, will be paid.</li>
-          <li>If the dealer does not have a Blackjack, then the hand will procede as normal and the player will decide what to do based on their hand.</li>
+          <li>The game of Blackjack starts with either a single deck, double deck, six deck, or eight deck of cards.
+            There are other variants but these are usually the most common.</li>
+          <li>The game usually starts with the dealer burning a card, then the players are dealt their cards (starting
+            with the player on the dealer's left).</li>
+          <li>The game begins with each player having two cards in their hand and the dealer having two cards as well
+            (but only one card being "exposed").</li>
+          <li>If the dealer's exposed card is a ten-value card, the dealer will check to see if they have Blackjack, in
+            which case, the hand will end. If the dealer's exposed card is an Ace, the dealer will offer insurance. If
+            the player has Blackjack, they can taken even money, or gamble that the dealer doesn't have Blackjack. If
+            the dealer has Blackjack, then all the non-Blackjack hands will lose unless the player has a Blackjack
+            themselves (in which case, the hand will push) and the insurance bets, if any are made, will be paid.</li>
+          <li>If the dealer does not have a Blackjack, then the hand will procede as normal and the player will decide
+            what to do based on their hand.</li>
           <li>Players can either:
             <ul>
               <li>Hit</li>
@@ -103,22 +132,29 @@
             </ul>
           </li>
           <li>If the player has Blackjack, it is usually </li>
-          <li>If the player decides to hit and goes over 21, then it is considered a bust, and the player automatically loses.</li>
-          <li>If the player decides to stay, their turn will end. This will continue until all of the players make a decision and then it will be the dealer's turn.</li>
-          <li>Based on the house rules, the dealer will continue to hit (if at all) until they reach a total of 17 (usually a hard 17).</li>
+          <li>If the player decides to hit and goes over 21, then it is considered a bust, and the player automatically
+            loses.</li>
+          <li>If the player decides to stay, their turn will end. This will continue until all of the players make a
+            decision and then it will be the dealer's turn.</li>
+          <li>Based on the house rules, the dealer will continue to hit (if at all) until they reach a total of 17
+            (usually a hard 17).</li>
           <li>If the dealer busts, the remaining players (whose hand(s) are still in play) will win.</li>
-          <li>If the dealer does not bust, then the dealer will compare their hand with each player and the highest hand will be considered the winner. If the total values are the same, then the player will neither win nor lose, which is also known as a push.</li>
-          <li>The dealer will then burn the played cards and begin the next hand. This will continue until the deck is finished.</li>
+          <li>If the dealer does not bust, then the dealer will compare their hand with each player and the highest
+            hand will be considered the winner. If the total values are the same, then the player will neither win nor
+            lose, which is also known as a push.</li>
+          <li>The dealer will then burn the played cards and begin the next hand. This will continue until the deck is
+            finished.</li>
         </ol>
         <p>Congratulations! You have now learned the rules for Blackjack!</p>
       </section>
-
-      <section>
-        <h3 id="basicstrategy">Basic Strategy</h3>
-        <p>When playing Blackjack, the purpose of the game is to beat the dealer. A common misconception that people have when playing Blackjack, is that they need to get as close as possible to 21. Although having a good hand helps, it's not really necessary to win.</p>
+      <section class="basic-strategy">
+        <h3>Basic Strategy</h3>
+        <p>When playing Blackjack, the purpose of the game is to beat the dealer. A common misconception that people
+          have when playing Blackjack, is that they need to get as close as possible to 21. Although having a good hand
+          helps, it's not really necessary to win.</p>
       </section>
     </article>
-  </div>
+  </main>
 </body>
 
 </html>
